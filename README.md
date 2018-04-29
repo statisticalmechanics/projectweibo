@@ -15,3 +15,7 @@ data.zip: after unzip, recover .csv files of user info under directory data, to 
 
 weibo_analysis.ipynb: read the data of 9784 user info from .csv files in "./data"; clean the data to find 2578 samples with cell phone info; add latitudes and longitudes according to the address loc; analyze and plot data
 
+CN_cellphone_combined.png: plot 1
+
+user_stat.png: plot 2
+
