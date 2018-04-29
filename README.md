@@ -11,3 +11,7 @@ china_city_loc.txt: dictionary of longitude and latitude of addresses and Chines
 
 CN-border-L1.dat: longitude and latitude coordinates of China's border for plotting. source: http://gmt-china.org/datas/
 
+data.zip: after unzip, recover .csv files of user info under directory data, to be used by weibo_analysis.ipynb
+
+weibo_analysis.ipynb: read the data of 9784 user info from .csv files in "./data"; clean the data to find 2578 samples with cell phone info; add latitudes and longitudes according to the address loc; analyze and plot data
+
